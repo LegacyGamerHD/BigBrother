@@ -1004,7 +1004,7 @@ class Translator_101 implements Translator{
 								];
 
 								$pk->players[] = [
-									$packetplayer->getUniqueId()->toBinary(),
+									//$packetplayer->getUniqueId()->toBinary(),
 									$packetplayer->getName(),
 									$peroperties,
 									$packetplayer->getGamemode(),
