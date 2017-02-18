@@ -984,7 +984,7 @@ class Translator_101 implements Translator{
 
 								$value = [ //Dummy Data
 									"timestamp" => 0,
-									"profileId" => str_replace("-", "", $packetplayer->getUniqueId()->toString()),
+									//"profileId" => str_replace("-", "", $packetplayer->getUniqueId()->toString()),
 									"profileName" => $entry[2],
 									"textures" => [
 										"SKIN" => [
