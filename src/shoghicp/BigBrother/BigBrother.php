@@ -118,9 +118,9 @@ class BigBrother extends PluginBase implements Listener{
 				if(is_file($composer = $this->getFile() . "vendor/autoload.php")){
 					$this->getLogger()->info("Registering Composer autoloader...");
 					__require($composer);
-				}else{
-					$this->getLogger()->critical("Composer autoloader not found");
-					$this->getLogger()->critical("Please initialize composer dependencies before running");
+	//			}else{
+		//			$this->getLogger()->critical("Composer autoloader not found");
+			//		$this->getLogger()->critical("Please initialize composer dependencies before running");
 				//	$this->getServer()->getPluginManager()->disablePlugin($this);
 					return;
 				}
