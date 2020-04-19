@@ -121,7 +121,7 @@ class BigBrother extends PluginBase implements Listener{
 				}else{
 					$this->getLogger()->critical("Composer autoloader not found");
 					$this->getLogger()->critical("Please initialize composer dependencies before running");
-					$this->getServer()->getPluginManager()->disablePlugin($this);
+				//	$this->getServer()->getPluginManager()->disablePlugin($this);
 					return;
 				}
 
